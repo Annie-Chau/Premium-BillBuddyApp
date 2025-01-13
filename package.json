@@ -1,0 +1,17 @@
+{
+  "name": "stripe-sample",
+  "version": "1.0.0",
+  "description": "A sample Stripe implementation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js -e \"node -r dotenv/config\""
+  },
+  "author": "stripe-samples",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.17.1",
+    "firebase-admin": "^13.0.2",
+    "stripe": "^13.11.0"
+  }
+}
